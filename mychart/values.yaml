@@ -5,10 +5,10 @@
 replicaCount: 1
 
 image:
-  repository: qichenxu4pd/mysql_web
+  repository: qichenxu4pd/mysqlweb
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
-  tag: "1.1"
+  tag: "1.2"
 
 imagePullSecrets: []
 nameOverride: ""
